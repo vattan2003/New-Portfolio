@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.prj-img{
+    border-top: solid rgb(9, 80, 108)6px;
+    border-left: solid rgb(9, 80, 108)6px;
+    border-radius: 10px;
+   
+}
+button{
+    margin-top: 10px;
+}
+/* #prjts{animation:fadeIn 7s ;}
+@keyframes fadeIn{
+    0%{opacity: 0}
+    50%{opacity: 3;}
+    100%{opacity: 5;}
+} */
+#prjts{animation:slideIn 2s}
+@keyframes slideIn{
+    0%{transform: translateX(-250px);}
+    /* 50%{transform: translateX(0);}
+    100%{transform: translateX(50%);} */
+}

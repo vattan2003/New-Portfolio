@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:black;
+}
+
+#home {
+    height: 25vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    color: antiquewhite;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 3px 5px;
+    background-color: rgba(26, 24, 24, 0.616);
+    border-radius: px;
+    border-top: solid rgb(9, 80, 108)3px;
+    border-left: solid rgb(9, 80, 108)3px;
+    border-bottom: solid rgb(9, 80, 108)0.5px;
+    border-right: solid rgb(9, 80, 108)0.5px;
+    font-size: 15px;
+    transition: 100ms;
+    z-index: 3;
+    
+}
+.navbar {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover {
+    box-shadow: 0 0 2px 2px rgba(78, 77, 77, 0.161);
+    
+    transition: 1s;
+    transform: translateY(0.250rem);
+    cursor: pointer;
+
+   
+}
+.nav {
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: repeating-conic-gradient(from var(--a),
+            #3c393a 0%,
+            #514e4f 5%,
+            transparent 5%,
+            transparent 40%,
+            #434041 50%);
+    animation: rotate 100s linear infinite;
+    border-radius: 3px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+button:before{
+   
+}
+
+
+@property --a {
+    syntax: " <angle> ";
+    inherits: false;
+    initial-value: 0deg;
+}
+@keyframes rotate {
+    0% {
+        --a: 0deg
+    }
+
+    100% {
+        --a: 360deg
+    }
+}
+.nav::before {
+    /* content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from var(--a),
+            rgba(168, 239, 255) 0%,
+            rgba(168, 239, 255) 5%,
+            transparent 5%,
+            transparent 40%,
+            rgba(168, 239, 255) 50%,
+        );
+    animation: rotate 4s linear infinite -1s;
+    border-radius: 5px; */
+
+    /* content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,transparent,
+               #00fffc,transparent);
+               transform: translateX(100%);
+               transition: 0.6s;
+               position: absolute; */
+}
+.nav::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: 10px;
+    border-radius: 5px;
+}
+.nav:hover{
+    background: transparent;
+    box-shadow: 0 0 10px 5px #00fffc;
+}

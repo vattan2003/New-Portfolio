@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100%;
+    border-style: groove;
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+}
+#sec1{animation:fadeIn 12s ;}
+@keyframes fadeIn{
+    0%{opacity: 0}
+    50%{opacity: 3;}
+    100%{opacity: 5;}
+}
+#sec2{animation:fadeIn 20s ;}
+@keyframes fadeIn{
+   70%{opacity: 4;}
+    100%{opacity: 5;}
+}
+#sec3{animation:fadeIn 26s ;}
+@keyframes fadeIn{
+    0%{opacity: 0}
+    50%{opacity: 3;}
+    100%{opacity: 5;}
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 40px;
+}
+skill:hover {
+    box-shadow: 10px 10px 20px #2f2f2f2a, -10px -10px 20px rgb(9, 9, 9);
+    transform: translateY(0.250rem);
+}
