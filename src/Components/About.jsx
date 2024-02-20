@@ -8,7 +8,7 @@ function About() {
     return (
         <div>
             <Navbar />
-            <div class="about">
+            <div class="about" >
                 <div class="about-content">
                     <img class="about-content-img" src={banner} alt="profile-img"></img><br></br>
                 </div>
@@ -23,7 +23,7 @@ function About() {
                         industry professionals to create impactful digital experiences. </p>
                 </div>
                 {/* code for media */}
-                <div style={{ display: "flex", gap: "40px", marginLeft: "40px", marginTop: "30px" ,paddingBottom:"10px"}}>
+                <div style={{ display: "flex", gap: "70px", marginLeft: "40px", marginTop: "30px" ,paddingBottom:"50px"}}>
                     <Link to={"https://www.linkedin.com/in/vattan-web-dev/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: 'black' }}><button><i class="fa-brands fa-linkedin"></i></button></Link>
                     <Link to={"https://github.com/vattan2003"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: 'black' }}><button><i class="fa-brands fa-github"></i></button></Link>
                     <Link to={"https://mail.google.com/mail/u/0/#sent"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' black' }}><button><i class="fa-solid fa-envelope"></i></button></Link>

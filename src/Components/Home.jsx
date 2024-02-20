@@ -7,8 +7,8 @@ function Home() {
     return (
         <div id="total-home">
             <Navbar />
-            <div class="home">
-                <div class="home-content">
+            <div class="home" >
+                <div class="home-content" >
                     <img class="home-content-img" src={prof} alt="profil-pic"></img>
                 </div>
                 <div class="home-content-para" >

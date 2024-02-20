@@ -5,7 +5,7 @@ import skill from "./imgs/computer-science.png"
 function Navbar() {
     return (
         <div>
-            <nav id="navbar">
+            <nav id="navbar" className="mt-10">
                 <ul>
                     <Link to={"/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: 'black' }} > <button class="nav">home</button></Link>
                     <Link to={"/about"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' black' }} > <button class="nav">about</button></Link>

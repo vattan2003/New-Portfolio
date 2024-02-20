@@ -21,7 +21,7 @@ function Projects() {
                 <img  class="prj-img" src={reestar} style={{ width: "50%", height: '300px',marginTop:"20px" }}></img>
                 <Link to={"https://reestar.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
                
-                <img class="prj-img" src={greeden} style={{ width: "50%", height: '300px' }}></img>
+                <img class="prj-img" src={greeden} style={{ width: "50%", height: '300px' ,marginTop:"20px"}}></img>
                 <Link to={"https://greeden-react.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
                 <img  class="prj-img" src={udemy} style={{ width: "50%", height: '300px',marginTop:"20px" }}></img>
                 <Link to={"https://udemy-clone-beige.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
