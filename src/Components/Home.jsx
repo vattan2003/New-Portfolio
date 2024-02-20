@@ -14,7 +14,8 @@ function Home() {
                 <div class="home-content-para" >
                     <h1>Welcome ,<br></br></h1>
                     <br></br>
-                    <h2 id="h2">VATTAN K </h2>
+                    <p>I'm</p>
+                    <h1 id="h2">VATTAN K </h1>
                  <div className="flex"style={{alignItems:"center"}}><img src={mern} style={{width:"80px",marginBottom:"",height:"70px"}}></img><p> Developer</p></div> 
                 </div>
             </div>
