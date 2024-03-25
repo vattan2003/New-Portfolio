@@ -1,6 +1,6 @@
 import "./Styles/Nav.css"
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
-import skill from "./imgs/computer-science.png"
+
 
 function Navbar() {
     return (
