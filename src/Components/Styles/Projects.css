@@ -3,9 +3,11 @@
     margin: 0px;
 }
 .prj-img{
-    border-top: solid rgb(9, 80, 108)6px;
-    border-left: solid rgb(9, 80, 108)6px;
+    border-top: solid rgb(167, 249, 222)10px;
+    border-left: solid rgb(136, 234, 221)8px;
     border-radius: 10px;
+    border-style: groove;
+    
    
 }
 button{
