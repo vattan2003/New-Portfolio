@@ -1,5 +1,5 @@
 import "./Styles/Home.css"
-import Navbar from "./Navbar"
+import Navbar from "./Navbar.jsx"
 import prof from "./imgs/profile_pic2.jpeg"
 import mern from "./imgs/mern.jpg"
 
