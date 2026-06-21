@@ -1,10 +1,10 @@
-import { Link, Route } from "react-router-dom"
+import { Link } from "react-router-dom"
 import "./Styles/Projects.css"
-import Navbar from "./Navbar"
+import Navbar from "./Navbar.jsx"
 import greeden from "./imgs/greeden.webp"
 import udemy from "./imgs/udemy.png"
 import reestar from "./imgs/reestar.png"
-import todo from "./imgs/todo banner.avif"
+
 import weather from "./imgs/weather.png"
 import bulkMail from "./imgs/bulkMail.jpeg"
 import devscope from "./imgs/devscope.png"
@@ -17,22 +17,22 @@ function Projects() {
            
             <center>
                 <div id="prjts">
-            <img  class="prj-img" src={devscope} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
+            <img  class="prj-img" src={devscope} alt=" _" style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
                 <Link to={"https://dev-scope-app.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
-                <img  class="prj-img" src={aiTransformer} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
+                <img  alt=" _" class="prj-img" src={aiTransformer} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
                 <Link to={"https://ai-tranformer-app-next-js-dux4.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
                 
-                <img  class="prj-img" src={weather} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
+                <img  alt=" _"  class="prj-img" src={weather} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
                 <Link to={"https://weather-app-ruby-psi.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
                 
-                <img  class="prj-img" src={reestar} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
+                <img  alt=" _"  class="prj-img" src={reestar} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
                 <Link to={"https://reestar.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
                 
-                <img class="prj-img" src={greeden} style={{ width: "40%", height: '300px' ,marginTop:"20px"}}></img>
+                <img  alt=" _" class="prj-img" src={greeden} style={{ width: "40%", height: '300px' ,marginTop:"20px"}}></img>
                 <Link to={"https://vattan2003.github.io/complete-greeden/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
-                <img  class="prj-img" src={udemy} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
+                <img  alt=" _"  class="prj-img" src={udemy} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
                 <Link to={"https://udemy-clone-beige.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
-                <img  class="prj-img" src={bulkMail} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
+                <img  alt=" _"  class="prj-img" src={bulkMail} style={{ width: "40%", height: '300px',marginTop:"20px" }}></img>
                 <Link to={"https://mail-app-frontend-mr9w.vercel.app/"} style={{ textDecoration: 'none', border: 'none', outline: 'none', backgroundColor: ' #0d0d0e' }} ><button>Tap to Visit <i class="fa-solid fa-hand-point-right fa-rotate-270"></i></button></Link>
                </div>
                 </center>

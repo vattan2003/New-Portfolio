@@ -16,7 +16,7 @@ function Home() {
                     <br></br>
                     <p>I'm</p>
                     <h1 id="h2">VATTAN K </h1>
-                 <div className="flex"style={{alignItems:"center"}}><img src={mern} style={{width:"80px",marginBottom:"",height:"70px"}}></img><p> Developer</p></div> 
+                 <div className="flex"style={{alignItems:"center"}}><img src={mern} alt=" " style={{width:"80px",marginBottom:"",height:"70px"}}></img><p> Developer</p></div> 
                 </div>
             </div>
         </div>

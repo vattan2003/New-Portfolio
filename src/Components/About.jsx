@@ -1,8 +1,8 @@
 import Navbar from "./Navbar"
 import "./Styles/About.css"
-import prof from "./imgs/profile-img.png"
+
 import banner from "./imgs/banner.png"
-import { Link, Route } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function About() {
     return (

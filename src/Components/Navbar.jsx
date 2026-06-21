@@ -1,6 +1,6 @@
 import "./Styles/Nav.css"
-import { BrowserRouter, Form, Link, Route, Routes } from "react-router-dom"
-import project from "./imgs/prj.png"
+import {  Link } from "react-router-dom"
+
 
 function Navbar() {
     return (
