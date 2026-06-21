@@ -1,6 +1,6 @@
 import "./Styles/Home.css"
 import Navbar from "./Navbar"
-import prof from "./imgs/profile-img.png"
+import prof from "./imgs/profile_pic2.jpeg"
 import mern from "./imgs/mern.jpg"
 
 function Home() {

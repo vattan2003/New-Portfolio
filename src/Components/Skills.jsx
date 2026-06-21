@@ -8,7 +8,7 @@ import tailwind from "./imgs/tail.webp"
 import github from "./imgs/git.jpg"
 import node from "./imgs/node.webp"
 import mongo from "./imgs/mongo.webp"
-import express from "./imgs/ex.png"
+import nextjs from "./imgs/nextjs.png"
 
 function Skills() {
     return (
@@ -52,7 +52,7 @@ function Skills() {
                         alt=""></img>
                 </skill>
                 <skill class="row1">
-                    <img class="img" src={express}
+                    <img  style={{height:"150px",width:"400px"}} class="img" src={nextjs}
                         alt=""></img>
                 </skill>
             </section>
